@@ -41,3 +41,29 @@ console.log(typeof outsideTemp);  //object for null
 console.log(typeof myFunc); //function
 console.log(typeof heros); //object
 console.log(typeof anotherId); //symbol
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++
+
+// memory : stack(primitive) , heap(non primitive)
+
+let myName = "shef"
+let anotherName = myName
+anotherName = "soumya"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sam@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+//in stack, we get copy of the stored value,while in heap we get reference
+//of that value and all the changes in heap occur in the original value
