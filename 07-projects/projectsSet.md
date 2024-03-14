@@ -37,6 +37,7 @@ buttons.forEach(function(button){
 ```
 
 ## Project 2: BMI Calculator
+[View Project](https://stackblitz.com/edit/stackblitz-starters-lkd7j3)
 
 ```javascript
 
